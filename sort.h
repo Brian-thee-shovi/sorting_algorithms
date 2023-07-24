@@ -34,5 +34,8 @@ void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
+void quick_recursion(int *array, int low, int high, size_t size);
+int Lomuto_partition(int *array, int low, int high, size_t size);
+int listlen(listint_t *h);
 
 #endif /*SORH_H*/
