@@ -37,5 +37,5 @@ void print_list(const listint_t *list);
 void quick_recursion(int *array, int low, int high, size_t size);
 int Lomuto_partition(int *array, int low, int high, size_t size);
 int listlen(listint_t *h);
-
+void swap_ints(int *a, int *b);
 #endif /*SORH_H*/
